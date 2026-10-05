@@ -12,9 +12,8 @@
 ## About
 
 <!-- TODO: 3-4 line self-introduction: interests, way of working -->
-- Undergraduate at Hankuk University of Foreign Studies (HUFS), enrolled since 2025 in the Division of Finance & AI Convergence, double majoring in Computer Science and Engineering.
+- Undergraduate at Hankuk University of Foreign Studies (HUFS), enrolled since 2025 in the Division of Finance & AI, double majoring in Computer Science and Engineering.
 - Member of DAT, the data analysis society at HUFS (7th cohort, since 2026.02), and head of the Planning Department since 2026.08.
-- I like problems where accuracy has to be pushed up within a fixed compute budget (CPU, latency).
 
 ## Tech Stack
 
