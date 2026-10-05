@@ -15,13 +15,6 @@
 - Undergraduate at Hankuk University of Foreign Studies (HUFS), enrolled since 2025 in the Division of Finance & AI Convergence, double majoring in Computer Science and Engineering.
 - Member of DAT, the data analysis society at HUFS (7th cohort, since 2026.02), and head of the Planning Department since 2026.08.
 - I like problems where accuracy has to be pushed up within a fixed compute budget (CPU, latency).
-- Every change is verified with A/B comparison and a sign test, and ideas rejected by measurement are kept on record.
-
-## Education
-
-| Period | School | Major |
-|---|---|---|
-| 2025 – present | Hankuk University of Foreign Studies | Division of Finance & AI Convergence · double major in Computer Science and Engineering |
 
 ## Tech Stack
 
@@ -31,7 +24,7 @@
 | Web | React, TypeScript, Vite, Tailwind CSS |
 | ML / Vision | ONNX Runtime, OpenCV, PaddleOCR (PP-OCR), NanoDet |
 | ML / Graph | PyTorch, PyTorch Geometric |
-| Eval / Infra | pytest, GitHub Actions, WSL (Ubuntu) to reproduce the grading environment |
+| Eval / Infra | pytest, GitHub Actions |
 <!-- TODO: additional stack -->
 
 ## GitHub Stats
@@ -45,22 +38,10 @@
 
 ## Projects
 
-| Project | Summary | Key results | Period |
-|---|---|---|---|
-| [**ITDA OCR Challenge: CatchCatch**](https://github.com/39byte/39byte/blob/main/projects/itda3-catchcatch/README.md) | CPU-only OCR pipeline that extracts the expiration date from a single package image, plus a pharmaceutical inventory management web app built on it ([Web](https://github.com/39byte/itda3_DAT_CatchCatch-Web)) | Accuracy **46.6 / 50**, **~85 ms** per image (limit 150 ms) | 2026.09 – 10 |
-| [**ITDA GNN Review Abuse Detection: Muckstar**](https://github.com/39byte/39byte/blob/main/projects/itda-gnn-fake-review/README.md) | Relational attention + wavelet GNN (**DRAGWave**) on a YelpZip review-graph spam detection pipeline | Single-model PR-AUC 0.8969 → **0.9340**, final ensemble **0.9419** · **3rd place** in the finals | 2026.05 |
-<!-- To add a project: add a row above + projects/<name>/README.md -->
-
-> Per-project READMEs are currently written in Korean.
-
-## Awards & Activities
-
-| Date | Details |
+| Project | Summary |
 |---|---|
-| 2026.05 | **3rd place** in the ITDA academic conference finals (team Muckstar, GNN review abuse detection) |
-| 2026.08 – present | Head of the Planning Department, DAT (HUFS data analysis society) |
-| 2026.02 – present | Member, DAT (HUFS data analysis society), 7th cohort |
-| 2026.10 | Finalist, 3rd ITDA OCR Challenge (team [DAT] CatchCatch) <!-- TODO: final result --> |
+| [**ITDA OCR Challenge: CatchCatch**](https://github.com/39byte/itda3-DAT-CatchCatch_Regacy) | CPU-only OCR pipeline that extracts the expiration date from a single package image, plus a pharmaceutical inventory management web app built on it ([Web](https://github.com/39byte/itda3_DAT_CatchCatch-Web)) |
+| [**ITDA GNN Review Abuse Detection: Muckstar**](https://github.com/39byte/fake_review) | Relational attention + wavelet GNN (**DRAGWave**) on a YelpZip review-graph spam detection pipeline |
 
 ## Contact
 
