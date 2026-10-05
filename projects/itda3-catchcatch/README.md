@@ -2,6 +2,7 @@
 
 > 제3회 ITDA OCR Challenge 본선 진출작 · 2026.09 – 2026.10
 > 코드: [`source/`](source) (submodule) · 원본 저장소 [39byte/itda3-DAT-CatchCatch_Regacy](https://github.com/39byte/itda3-DAT-CatchCatch_Regacy)
+> 도메인 활용 웹: [39byte/itda3_DAT_CatchCatch-Web](https://github.com/39byte/itda3_DAT_CatchCatch-Web)
 
 ## 한눈에 보기
 
@@ -59,6 +60,19 @@ recall@1이 84.7% → 50.2%로 무너지는 것을 찾아내 해당 경로에서
 
 ### 4. 측정으로 기각한 것도 기록
 INT8 양자화, 결측 일자 보정(−0.95), 조건부 2차 판독(−0.23) 등은 A/B에서 손해로 나와 채택하지 않았습니다.
+
+## 도메인 활용 — 의약품 재고 관리 웹
+
+[itda3_DAT_CatchCatch-Web](https://github.com/39byte/itda3_DAT_CatchCatch-Web) · React 18 · TypeScript · Vite · Tailwind
+
+OCR 파이프라인을 약국·병원 의약품 재고 관리에 붙인 시연용 웹입니다. 팀 공동 작업이며, 그중 제가 맡은 부분은 아래와 같습니다.
+
+| 기여 | 내용 |
+|---|---|
+| **카메라 OCR 유효기한 입력** ([#1](https://github.com/39byte/itda3_DAT_CatchCatch-Web/pull/1)) | 포장에 카메라를 비추면 가이드 박스 영역만 잘라 OCR 서버로 보내고, **최근 3프레임 중 2번** 같은 날짜가 나오면 입력칸을 자동으로 채웁니다. 저장은 사람이 확인한 뒤에 합니다. 카메라를 못 쓰면 사진 선택으로, 서버가 연결되지 않으면 안내 문구로 대체합니다. |
+| **사용 우선순위 추천 페이지** ([#1](https://github.com/39byte/itda3_DAT_CatchCatch-Web/pull/1)) | 1년치 불출 기록으로 약품별 소진 속도를 추정해 로트마다 유효기한 안에 다 쓸 수 있는지 계산합니다. 사용 순서(FEFO)와 조치(우선 사용 · 반품 권고 · 교환 요청 · 양도 검토)를 추천합니다. Python 수요 모델(ADI/CV² 분류, TSB 예측, 몬테카를로 폐기 확률)을 **외부 의존성 없이 TypeScript로 옮기고**, 같은 입력에서 Python 결과와 일치하는지 테스트로 확인했습니다. |
+| **입고 등록** | 새 로트를 등록하면 추천 결과에 바로 반영됩니다. |
+| **OCR 서버 연결 복구** ([#2](https://github.com/39byte/itda3_DAT_CatchCatch-Web/pull/2)) | 파일 업로드 과정에서 설정 파일이 이전 상태로 덮여 OCR 서버에 연결되지 않던 문제를 찾아, 연결에 필요한 설정만 되돌렸습니다(`/ocr` 프록시, 휴대폰 카메라용 HTTPS 개발 모드). |
 
 ## 검증 방법
 - 실제 채점 환경(Ubuntu 22.04 · Python 3.10 · 4코어 · 네트워크 차단)을 WSL + `unshare` + `taskset` 으로 재현해 공식 명령으로 실행
