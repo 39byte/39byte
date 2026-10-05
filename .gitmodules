@@ -1,3 +1,6 @@
 [submodule "projects/itda3-catchcatch/source"]
 	path = projects/itda3-catchcatch/source
 	url = https://github.com/39byte/itda3-DAT-CatchCatch_Regacy.git
+[submodule "projects/itda-gnn-fake-review/source"]
+	path = projects/itda-gnn-fake-review/source
+	url = https://github.com/39byte/fake_review.git

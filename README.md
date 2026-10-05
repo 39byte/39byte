@@ -24,6 +24,7 @@
 | Language | Python |
 | Web | React, TypeScript, Vite, Tailwind CSS |
 | ML / Vision | ONNX Runtime, OpenCV, PaddleOCR(PP-OCR), NanoDet |
+| ML / Graph | PyTorch, PyTorch Geometric |
 | Eval / Infra | pytest, GitHub Actions, WSL(Ubuntu) 채점 환경 재현 |
 <!-- TODO: 추가 스택 -->
 
@@ -32,12 +33,14 @@
 | 프로젝트 | 한 줄 요약 | 핵심 성과 | 기간 |
 |---|---|---|---|
 | [**ITDA OCR Challenge — CatchCatch**](projects/itda3-catchcatch/README.md) | 포장 이미지 1장에서 소비기한을 추출하는 CPU 전용 OCR 파이프라인 + 이를 활용한 의약품 재고 관리 웹 ([Web](https://github.com/39byte/itda3_DAT_CatchCatch-Web)) | 정확도 **46.6 / 50**, 장당 **~85 ms** (기준 150 ms) | 2026.09 – 10 |
+| [**ITDA GNN 리뷰 어뷰징 탐지 — 먹스타**](projects/itda-gnn-fake-review/README.md) | YelpZip 리뷰 그래프 스팸 탐지 파이프라인에 관계 attention + wavelet GNN(**DRAGWave**) 적용 | 단일 모델 PR-AUC 0.8969 → **0.9340**, 최종 앙상블 **0.9419** · 본선 **3위** | 2026.05 |
 <!-- 새 프로젝트는 위 표에 한 줄 추가 + projects/<이름>/README.md -->
 
 ## Awards & Activities
 
 | 날짜 | 내용 |
 |---|---|
+| 2026.05 | ITDA 학술대회 본선 **3위** (팀 먹스타, GNN 리뷰 어뷰징 탐지) |
 | 2026.10 | 제3회 ITDA OCR Challenge 본선 진출 (팀 [DAT] 캐치캐치) <!-- TODO: 최종 결과 --> |
 
 ## Contact
