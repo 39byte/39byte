@@ -12,7 +12,7 @@
 ## About
 
 <!-- TODO: 3-4 line self-introduction: interests, way of working -->
-- Undergraduate at Hankuk University of Foreign Studies (HUFS), enrolled since 2025 in the School of Finance & AI Convergence, double majoring in Computer Science and Engineering.
+- Undergraduate at Hankuk University of Foreign Studies (HUFS), enrolled since 2025 in the Division of Finance & AI Convergence, double majoring in Computer Science and Engineering.
 - I like problems where accuracy has to be pushed up within a fixed compute budget (CPU, latency).
 - Every change is verified with A/B comparison and a sign test, and ideas rejected by measurement are kept on record.
 
