@@ -1,0 +1,3 @@
+[submodule "projects/itda3-catchcatch/source"]
+	path = projects/itda3-catchcatch/source
+	url = https://github.com/39byte/itda3-DAT-CatchCatch_Regacy.git
