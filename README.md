@@ -1,8 +1,9 @@
 <div align="center">
 
-# Jiwon Han · Portfolio
+# Hi there, I'm Jiwon Han 👋
 
-[GitHub](https://github.com/39byte) · [Email](mailto:mpjw2617@gmail.com)
+<a href="https://github.com/39byte"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="mailto:mpjw2617@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 
 </div>
 
