@@ -13,6 +13,7 @@
 
 <!-- TODO: 3-4 line self-introduction: interests, way of working -->
 - Undergraduate at Hankuk University of Foreign Studies (HUFS), enrolled since 2025 in the Division of Finance & AI Convergence, double majoring in Computer Science and Engineering.
+- Member of DAT, the data analysis society at HUFS (7th cohort, since 2026.02), and head of the Planning Department since 2026.08.
 - I like problems where accuracy has to be pushed up within a fixed compute budget (CPU, latency).
 - Every change is verified with A/B comparison and a sign test, and ideas rejected by measurement are kept on record.
 
@@ -20,7 +21,7 @@
 
 | Period | School | Major |
 |---|---|---|
-| 2025 – present | Hankuk University of Foreign Studies | School of Finance & AI Convergence · double major in Computer Science and Engineering |
+| 2025 – present | Hankuk University of Foreign Studies | Division of Finance & AI Convergence · double major in Computer Science and Engineering |
 
 ## Tech Stack
 
@@ -57,6 +58,8 @@
 | Date | Details |
 |---|---|
 | 2026.05 | **3rd place** in the ITDA academic conference finals (team Muckstar, GNN review abuse detection) |
+| 2026.08 – present | Head of the Planning Department, DAT (HUFS data analysis society) |
+| 2026.02 – present | Member, DAT (HUFS data analysis society), 7th cohort |
 | 2026.10 | Finalist, 3rd ITDA OCR Challenge (team [DAT] CatchCatch) <!-- TODO: final result --> |
 
 ## Contact
