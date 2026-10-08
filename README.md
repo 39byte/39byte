@@ -20,7 +20,6 @@
 | Area | Technologies |
 |---|---|
 | Language | Python |
-| Web | React, TypeScript, Vite, Tailwind CSS |
 | ML / Vision | ONNX Runtime, OpenCV, PaddleOCR (PP-OCR), NanoDet |
 | ML / Graph | PyTorch, PyTorch Geometric |
 | Eval / Infra | pytest, GitHub Actions |
