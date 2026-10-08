@@ -3,7 +3,7 @@
 # Hi there, I'm Jiwon Han 👋
 
 <a href="https://github.com/39byte"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="mailto:mpjw2617@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+<a href="mailto:mpjw2617@hufs.ac.kr"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 
 </div>
 
@@ -43,5 +43,5 @@
 
 ## Contact
 
-- Email: mpjw2617@gmail.com
+- Email: mpjw2617@hufs.ac.kr
 - GitHub: [@39byte](https://github.com/39byte)
